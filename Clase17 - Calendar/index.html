@@ -9,12 +9,12 @@
 <body>
     <form action="">
         <label for="hora">
-            <span>Hora</span>
-            <input type="time" id="hora" name="hora">
+            <span>Hora</span> <!-- Se agrega el Titulo de cada Input -->
+            <input type="time" id="hora" name="hora"><!-- El id y el name tienen que ser iguales al for del Label -->
         </label>
         <label for="dia">
             <span>Dia</span>
-            <input type="date" id="dia" name="dia">
+            <input type="date" id="dia" name="dia"><!-- Son iguales para el envio de los datos del usuario -->
         </label>
         <label for="semana">
             <span>Semana</span>
@@ -24,14 +24,14 @@
             <span>Mes</span>
             <input type="month" id="mes" name="mes">
         </label>
-        <input type="submit">
+        <input type="submit"><!-- Boton Enviar -->
     </form>
     <form action="">
         <label for="calendario">
             <span>Calendario</span>
-            <input type="datetime-local" id="calendario" name="calendario">
+            <input type="datetime-local" id="calendario" name="calendario"><!-- Forma correcta de poner un formulario con el tipo de datetime-local, ya que cuenta con todos los anteriores en un solo -->
         </label>
     </form>
-    <input type="submit">
+    <input type="submit"><!-- Boton Enviar -->
 </body>
 </html>
