@@ -7,31 +7,26 @@
     <title>Etiqueta Calendario</title>
 </head>
 <body>
-    <form action="">
-        <label for="hora">
-            <span>Hora</span> <!-- Se agrega el Titulo de cada Input -->
-            <input type="time" id="hora" name="hora"><!-- El id y el name tienen que ser iguales al for del Label -->
+    <main>
+      <form action="">
+          <label for="nombre">
+              <span>Cual es tu nombre?</span>
+              <input type="text" name="nombre" id="nombre" autocomplete="name" required>
+          </label>
+          <label for="correo">
+            <span>Cual es tu correo?</span>
+            <input type="email" name="correo" id="correo" autocomplete="email" required>
         </label>
-        <label for="dia">
-            <span>Dia</span>
-            <input type="date" id="dia" name="dia"><!-- Son iguales para el envio de los datos del usuario -->
+        <label for="pais">
+            <span>Cual es tu pais?</span>
+            <input type="text" name="pais" id="pais" autocomplete="country" required>
         </label>
-        <label for="semana">
-            <span>Semana</span>
-            <input type="week" id="semana" name="semana">
+        <label for="cp">
+            <span>Cual es tu codigo postal?</span>
+            <input type="text" name="cp" id="cp" autocomplete="postal-code" required>
         </label>
-        <label for="mes">
-            <span>Mes</span>
-            <input type="month" id="mes" name="mes">
-        </label>
-        <input type="submit"><!-- Boton Enviar -->
-    </form>
-    <form action="">
-        <label for="calendario">
-            <span>Calendario</span>
-            <input type="datetime-local" id="calendario" name="calendario"><!-- Forma correcta de poner un formulario con el tipo de datetime-local, ya que cuenta con todos los anteriores en un solo -->
-        </label>
-    </form>
-    <input type="submit"><!-- Boton Enviar -->
+        <input type="submit">
+      </form>  
+    </main>
 </body>
 </html>
