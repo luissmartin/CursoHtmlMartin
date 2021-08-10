@@ -1,0 +1,18 @@
+/* Selector por elemento */
+p {
+    color: blue;
+    font-size: 40px;
+}
+
+/* Selector por clase */
+
+.parrafo {
+    color: red;
+}
+
+/* Selector por ID */
+
+#texto {
+    color: yellow;
+    font-size: 24px;
+}
